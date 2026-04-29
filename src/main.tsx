@@ -1,9 +1,14 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Route, Routes } from 'react-router';
-import './index.css';
+// components
 import { Layout } from './layout/Layout.tsx';
+// routers
 import { routersLayout } from './routers/routers.ts';
+// style
+import './styles/reset.css';
+import './styles/variables.css';
+import './styles/globals.css';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
