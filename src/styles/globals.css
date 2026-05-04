@@ -2,12 +2,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 1046px;
+  max-width: 1400px;
+  width: 90%;
   margin: 0 auto;
   padding: 35px 47px;
 }
 
 .page {
   display: flex;
-  /* gap: 47px; */
 }

@@ -1,12 +1,14 @@
 .button {
   position: relative;
-  font-size: 16px;
+  font-size: 14px;
+  line-height: 1;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
   width: 100%;
   min-height: 30px;
+  padding: 8px;
   border-radius: 4px;
   border: none;
   background-color: var(--neutral--blue-700);
@@ -18,7 +20,9 @@
 }
 
 .big {
+  font-size: 16px;
   min-height: 46px;
+  padding: 14px;
 }
 
 .pink {
