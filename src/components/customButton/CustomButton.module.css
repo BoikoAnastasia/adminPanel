@@ -1,0 +1,42 @@
+.button {
+  position: relative;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  min-height: 30px;
+  border-radius: 4px;
+  border: none;
+  background-color: var(--neutral--blue-700);
+  cursor: pointer;
+  transition: 0.5s all ease;
+  &:hover {
+    background-color: #1c2337;
+  }
+}
+
+.big {
+  min-height: 46px;
+}
+
+.pink {
+  background-color: var(--primary-pink);
+  &:hover {
+    background-color: #944dab;
+  }
+}
+
+.gradient {
+  background: var(--primary-gradient);
+  &:hover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0000002f;
+  }
+}

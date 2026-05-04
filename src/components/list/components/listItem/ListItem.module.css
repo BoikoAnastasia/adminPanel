@@ -1,0 +1,21 @@
+.item {
+  font-size: 16px;
+  width: 100%;
+  text-align: left;
+  color: var(--neutral--grey-400);
+  padding: 14px;
+  background: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s all ease;
+  &:hover,
+  &:focus-visible {
+    background: var(--neutral--blue-600);
+  }
+}
+
+.active {
+  color: var(--neutral-white-100);
+  background-color: var(--neutral--blue-800);
+  border-left: 4px solid var(--primary-pink);
+}

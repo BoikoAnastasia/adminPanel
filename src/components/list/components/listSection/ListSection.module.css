@@ -1,0 +1,41 @@
+.wrapper {
+  overflow: hidden;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--neutral--grey-400);
+  padding: 14px 12px 15px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.activeTitle {
+  color: var(--primary-pink);
+}
+
+.icon {
+  transition: 0.3s ease all;
+}
+
+.reverseIcon {
+  transform: rotate(90deg);
+  transition: 0.3s ease all;
+}
+
+.isOpen {
+  min-height: 55px;
+}
+
+.items {
+  height: 0;
+}

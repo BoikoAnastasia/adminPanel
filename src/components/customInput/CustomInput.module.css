@@ -1,0 +1,25 @@
+.wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 14px;
+  transform: translate(0, -50%);
+}
+
+.input {
+  font-size: 14px;
+  width: 100%;
+  min-height: 42px;
+  padding: 10px 5px 10px 48px;
+  border: 0.6px solid var(--neutral--blue-600);
+  border-radius: 4px;
+  color: var(--neutral-white-100);
+  background: var(--secondary-dark-blue);
+  &::placeholder {
+    color: var(--neutral--grey-400);
+  }
+}
