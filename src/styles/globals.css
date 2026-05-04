@@ -8,6 +8,12 @@
   padding: 35px 47px;
 }
 
+@media (max-width: 1024px) {
+  .container {
+    padding: 16px;
+  }
+}
+
 .page {
   display: flex;
 }
